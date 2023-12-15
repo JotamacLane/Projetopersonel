@@ -1,0 +1,150 @@
+body{
+    display: flex;
+    
+    width: 99%;
+    height: 100vh;
+    background-image: url(../img/desportista-pequeno.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-clip: border-box;
+    box-sizing: border-box;
+}
+body img{
+
+    width: 100%;
+    height: none;
+    
+    z-index: 0;
+}
+.body{
+    
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    
+    align-items: center;
+    justify-content: left;
+    
+}
+
+/* Login */
+
+.containerLogin{
+    width: 40%;
+    height: 500px;
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    margin-left: 50px;
+    color: white;
+    
+}
+form{
+    width: 100%;
+    box-sizing: border-box;
+}
+.containerLogin h1, .containerCadastro  h1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.containerLogin .user , .password, .containerCadastro .confirm-password{
+    width: 100%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+.containerLogin .user, .containerCadastro .user, .email{
+    width: 100%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+.containerLogin .password, .containerCadastro .confirm-password{
+    padding-left: 30px;
+}
+.user input, .containerCadastro .email input{
+    padding: 10px;
+    padding-left: 55px;
+    
+}
+
+.containerLogin p, input, .containerCadastro,h1, p,input{
+    font-family: 'Krona One', sans-serif;
+    border-radius: 10px;
+    border: none;
+    
+
+}
+.containerLogin i, .containerCadastro i {
+    border-top-left-radius: 9px;
+    position: absolute;
+    margin-top: 52px;
+    margin-left: 0px;
+    background-color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.password input, .confirm-password input{
+    padding: 10px;
+    padding-left: 55px;
+    
+    
+}
+
+.login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login button{
+         
+    margin-top: 70px;
+    padding: 10px;
+    padding-left: 20px ;
+    padding-right: 20px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #00C2FF;
+    border: solid 2px white;
+}
+
+/* Cadastro */
+.containerCadastro{
+    width: 40%;
+    height: 600px;
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    margin-left: 50px;
+    color: white;
+    
+}
+.containerCadastro .confirm-password{
+    width: 100%;
+    display: flex;
+    margin-left: 30px;
+}
+.containerCadastro .confirm-password p {
+    margin-left: 30px;
+
+}
+
